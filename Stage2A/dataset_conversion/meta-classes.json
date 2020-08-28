@@ -1,0 +1,2693 @@
+{
+    "version" : 1.0,
+    "dictionnaire" :
+    [
+    "sol",
+    "mur",
+    "plafond",
+    "fenetre",
+    "porte",
+    "prise",
+    "architecture",
+    "meuble",
+    "accessoire"
+    ],
+    "classes" : {
+      "book": {
+        "metaclasse": "accessoire"
+      },
+      "bottle": {
+        "metaclasse": "accessoire"
+      },
+      "cabinet": {
+        "metaclasse": "meuble"
+      },
+      "ceiling": {
+        "metaclasse": "plafond"
+      },
+      "chair": {
+        "metaclasse": "meuble"
+      },
+      "cone": {
+        "metaclasse": "accessoire"
+      },
+      "counter": {
+        "metaclasse": "accessoire"
+      },
+      "dishwasher": {
+        "metaclasse": "meuble"
+      },
+      "faucet": {
+        "metaclasse": "meuble"
+      },
+      "fire extinguisher": {
+        "metaclasse": "accessoire"
+      },
+      "floor": {
+        "metaclasse": "sol"
+      },
+      "garbage bin": {
+        "metaclasse": "accessoire"
+      },
+      "microwave": {
+        "metaclasse": "accessoire"
+      },
+      "paper towel dispenser": {
+        "metaclasse": "accessoire"
+      },
+      "paper": {
+        "metaclasse": "accessoire"
+      },
+      "pot": {
+        "metaclasse": "accessoire"
+      },
+      "refridgerator": {
+        "metaclasse": "meuble"
+      },
+      "stove burner": {
+        "metaclasse": "meuble"
+      },
+      "table": {
+        "metaclasse": "meuble"
+      },
+      "unknown": {
+        "metaclasse": "accessoire"
+      },
+      "wall": {
+        "metaclasse": "mur"
+      },
+      "bowl": {
+        "metaclasse": "accessoire"
+      },
+      "magnet": {
+        "metaclasse": "accessoire"
+      },
+      "sink": {
+        "metaclasse": "accessoire"
+      },
+      "air vent": {
+        "metaclasse": "meuble"
+      },
+      "box": {
+        "metaclasse": "accessoire"
+      },
+      "door knob": {
+        "metaclasse": "accessoire"
+      },
+      "door": {
+        "metaclasse": "porte"
+      },
+      "scissor": {
+        "metaclasse": "accessoire"
+      },
+      "tape dispenser": {
+        "metaclasse": "accessoire"
+      },
+      "telephone cord": {
+        "metaclasse": "accessoire"
+      },
+      "telephone": {
+        "metaclasse": "accessoire"
+      },
+      "track light": {
+        "metaclasse": "accessoire"
+      },
+      "cork board": {
+        "metaclasse": "accessoire"
+      },
+      "cup": {
+        "metaclasse": "accessoire"
+      },
+      "desk": {
+        "metaclasse": "meuble"
+      },
+      "laptop": {
+        "metaclasse": "accessoire"
+      },
+      "air duct": {
+        "metaclasse": "meuble"
+      },
+      "basket": {
+        "metaclasse": "accessoire"
+      },
+      "camera": {
+        "metaclasse": "accessoire"
+      },
+      "pipe": {
+        "metaclasse": "accessoire"
+      },
+      "shelves": {
+        "metaclasse": "meuble"
+      },
+      "stacked chairs": {
+        "metaclasse": "meuble"
+      },
+      "styrofoam object": {
+        "metaclasse": "accessoire"
+      },
+      "whiteboard": {
+        "metaclasse": "accessoire"
+      },
+      "computer": {
+        "metaclasse": "accessoire"
+      },
+      "keyboard": {
+        "metaclasse": "accessoire"
+      },
+      "ladder": {
+        "metaclasse": "meuble"
+      },
+      "monitor": {
+        "metaclasse": "accessoire"
+      },
+      "stand": {
+        "metaclasse": "meuble"
+      },
+      "bar": {
+        "metaclasse": "meuble"
+      },
+      "motion camera": {
+        "metaclasse": "accessoire"
+      },
+      "projector screen": {
+        "metaclasse": "meuble"
+      },
+      "speaker": {
+        "metaclasse": "meuble"
+      },
+      "bag": {
+        "metaclasse": "accessoire"
+      },
+      "clock": {
+        "metaclasse": "meuble"
+      },
+      "green screen": {
+        "metaclasse": "meuble"
+      },
+      "mantel": {
+        "metaclasse": "meuble"
+      },
+      "window": {
+        "metaclasse": "fenetre"
+      },
+      "ball": {
+        "metaclasse": "accessoire"
+      },
+      "hole puncher": {
+        "metaclasse": "accessoire"
+      },
+      "light": {
+        "metaclasse": "meuble"
+      },
+      "manilla envelope": {
+        "metaclasse": "accessoire"
+      },
+      "picture": {
+        "metaclasse": "accessoire"
+      },
+      "mail shelf": {
+        "metaclasse": "accessoire"
+      },
+      "printer": {
+        "metaclasse": "accessoire"
+      },
+      "stapler": {
+        "metaclasse": "accessoire"
+      },
+      "fax machine": {
+        "metaclasse": "accessoire"
+      },
+      "folder": {
+        "metaclasse": "accessoire"
+      },
+      "jar": {
+        "metaclasse": "accessoire"
+      },
+      "magazine": {
+        "metaclasse": "accessoire"
+      },
+      "ruler": {
+        "metaclasse": "accessoire"
+      },
+      "cable modem": {
+        "metaclasse": "accessoire"
+      },
+      "fan": {
+        "metaclasse": "accessoire"
+      },
+      "file": {
+        "metaclasse": "accessoire"
+      },
+      "hand sanitizer": {
+        "metaclasse": "accessoire"
+      },
+      "paper rack": {
+        "metaclasse": "accessoire"
+      },
+      "vase": {
+        "metaclasse": "accessoire"
+      },
+      "air conditioner": {
+        "metaclasse": "meuble"
+      },
+      "blinds": {
+        "metaclasse": "meuble"
+      },
+      "flower": {
+        "metaclasse": "accessoire"
+      },
+      "plant": {
+        "metaclasse": "accessoire"
+      },
+      "sofa": {
+        "metaclasse": "meuble"
+      },
+      "stereo": {
+        "metaclasse": "meuble"
+      },
+      "books": {
+        "metaclasse": "accessoire"
+      },
+      "exit sign": {
+        "metaclasse": "accessoire"
+      },
+      "room divider": {
+        "metaclasse": "architecture"
+      },
+      "bookshelf": {
+        "metaclasse": "meuble"
+      },
+      "curtain": {
+        "metaclasse": "meuble"
+      },
+      "projector": {
+        "metaclasse": "accessoire"
+      },
+      "modem": {
+        "metaclasse": "accessoire"
+      },
+      "wire": {
+        "metaclasse": "accessoire"
+      },
+      "water purifier": {
+        "metaclasse": "accessoire"
+      },
+      "column": {
+        "metaclasse": "architecture"
+      },
+      "hooks": {
+        "metaclasse": "accessoire"
+      },
+      "hanging hooks": {
+        "metaclasse": "accessoire"
+      },
+      "pen": {
+        "metaclasse": "accessoire"
+      },
+      "electrical outlet": {
+        "metaclasse": "prise"
+      },
+      "doll": {
+        "metaclasse": "accessoire"
+      },
+      "eraser": {
+        "metaclasse": "accessoire"
+      },
+      "pencil holder": {
+        "metaclasse": "accessoire"
+      },
+      "water carboy": {
+        "metaclasse": "accessoire"
+      },
+      "mouse": {
+        "metaclasse": "accessoire"
+      },
+      "cable rack": {
+        "metaclasse": "accessoire"
+      },
+      "wire rack": {
+        "metaclasse": "accessoire"
+      },
+      "flipboard": {
+        "metaclasse": "meuble"
+      },
+      "map": {
+        "metaclasse": "accessoire"
+      },
+      "paper cutter": {
+        "metaclasse": "accessoire"
+      },
+      "tape": {
+        "metaclasse": "accessoire"
+      },
+      "thermostat": {
+        "metaclasse": "accessoire"
+      },
+      "heater": {
+        "metaclasse": "meuble"
+      },
+      "circuit breaker box": {
+        "metaclasse": "prise"
+      },
+      "paper towel": {
+        "metaclasse": "accessoire"
+      },
+      "stamp": {
+        "metaclasse": "accessoire"
+      },
+      "duster": {
+        "metaclasse": "accessoire"
+      },
+      "poster case": {
+        "metaclasse": "meuble"
+      },
+      "whiteboard marker": {
+        "metaclasse": "accessoire"
+      },
+      "ethernet jack": {
+        "metaclasse": "prise"
+      },
+      "pillow": {
+        "metaclasse": "accessoire"
+      },
+      "hair brush": {
+        "metaclasse": "accessoire"
+      },
+      "makeup brush": {
+        "metaclasse": "accessoire"
+      },
+      "mirror": {
+        "metaclasse": "meuble"
+      },
+      "shower curtain": {
+        "metaclasse": "meuble"
+      },
+      "toilet": {
+        "metaclasse": "meuble"
+      },
+      "toiletries bag": {
+        "metaclasse": "accessoire"
+      },
+      "toothbrush holder": {
+        "metaclasse": "accessoire"
+      },
+      "toothbrush": {
+        "metaclasse": "accessoire"
+      },
+      "toothpaste": {
+        "metaclasse": "accessoire"
+      },
+      "platter": {
+        "metaclasse": "accessoire"
+      },
+      "rug": {
+        "metaclasse": "meuble"
+      },
+      "squeeze tube": {
+        "metaclasse": "meuble"
+      },
+      "shower cap": {
+        "metaclasse": "accessoire"
+      },
+      "soap": {
+        "metaclasse": "accessoire"
+      },
+      "towel rod": {
+        "metaclasse": "meuble"
+      },
+      "towel": {
+        "metaclasse": "accessoire"
+      },
+      "bathtub": {
+        "metaclasse": "meuble"
+      },
+      "candle": {
+        "metaclasse": "accessoire"
+      },
+      "tissue box": {
+        "metaclasse": "accessoire"
+      },
+      "toilet paper": {
+        "metaclasse": "accessoire"
+      },
+      "container": {
+        "metaclasse": "meuble"
+      },
+      "clothes": {
+        "metaclasse": "accessoire"
+      },
+      "electric toothbrush": {
+        "metaclasse": "accessoire"
+      },
+      "floor mat": {
+        "metaclasse": "meuble"
+      },
+      "lamp": {
+        "metaclasse": "accessoire"
+      },
+      "drum": {
+        "metaclasse": "accessoire"
+      },
+      "flower pot": {
+        "metaclasse": "accessoire"
+      },
+      "banana": {
+        "metaclasse": "accessoire"
+      },
+      "candlestick": {
+        "metaclasse": "accessoire"
+      },
+      "shoe": {
+        "metaclasse": "accessoire"
+      },
+      "stool": {
+        "metaclasse": "meuble"
+      },
+      "urn": {
+        "metaclasse": "accessoire"
+      },
+      "earplugs": {
+        "metaclasse": "accessoire"
+      },
+      "mailshelf": {
+        "metaclasse": "accessoire"
+      },
+      "placemat": {
+        "metaclasse": "accessoire"
+      },
+      "excercise ball": {
+        "metaclasse": "accessoire"
+      },
+      "alarm clock": {
+        "metaclasse": "accessoire"
+      },
+      "bed": {
+        "metaclasse": "meuble"
+      },
+      "night stand": {
+        "metaclasse": "meuble"
+      },
+      "deoderant": {
+        "metaclasse": "accessoire"
+      },
+      "headphones": {
+        "metaclasse": "accessoire"
+      },
+      "headboard": {
+        "metaclasse": "accessoire"
+      },
+      "basketball hoop": {
+        "metaclasse": "meuble"
+      },
+      "foot rest": {
+        "metaclasse": "accessoire"
+      },
+      "laundry basket": {
+        "metaclasse": "accessoire"
+      },
+      "sock": {
+        "metaclasse": "accessoire"
+      },
+      "football": {
+        "metaclasse": "accessoire"
+      },
+      "mens suit": {
+        "metaclasse": "accessoire"
+      },
+      "cable box": {
+        "metaclasse": "accessoire"
+      },
+      "dresser": {
+        "metaclasse": "meuble"
+      },
+      "dvd player": {
+        "metaclasse": "accessoire"
+      },
+      "shaver": {
+        "metaclasse": "accessoire"
+      },
+      "television": {
+        "metaclasse": "accessoire"
+      },
+      "contact lens solution bottle": {
+        "metaclasse": "accessoire"
+      },
+      "drawer": {
+        "metaclasse": "accessoire"
+      },
+      "remote control": {
+        "metaclasse": "accessoire"
+      },
+      "cologne": {
+        "metaclasse": "accessoire"
+      },
+      "stuffed animal": {
+        "metaclasse": "accessoire"
+      },
+      "lint roller": {
+        "metaclasse": "accessoire"
+      },
+      "tray": {
+        "metaclasse": "accessoire"
+      },
+      "lock": {
+        "metaclasse": "accessoire"
+      },
+      "purse": {
+        "metaclasse": "accessoire"
+      },
+      "toy bottle": {
+        "metaclasse": "accessoire"
+      },
+      "crate": {
+        "metaclasse": "accessoire"
+      },
+      "vasoline": {
+        "metaclasse": "accessoire"
+      },
+      "gift wrapping roll": {
+        "metaclasse": "accessoire"
+      },
+      "wall decoration": {
+        "metaclasse": "meuble"
+      },
+      "hookah": {
+        "metaclasse": "accessoire"
+      },
+      "radio": {
+        "metaclasse": "accessoire"
+      },
+      "bicycle": {
+        "metaclasse": "meuble"
+      },
+      "pen box": {
+        "metaclasse": "accessoire"
+      },
+      "mask": {
+        "metaclasse": "accessoire"
+      },
+      "shorts": {
+        "metaclasse": "accessoire"
+      },
+      "hat": {
+        "metaclasse": "accessoire"
+      },
+      "hockey glove": {
+        "metaclasse": "accessoire"
+      },
+      "hockey stick": {
+        "metaclasse": "accessoire"
+      },
+      "vuvuzela": {
+        "metaclasse": "accessoire"
+      },
+      "dvd": {
+        "metaclasse": "accessoire"
+      },
+      "chessboard": {
+        "metaclasse": "accessoire"
+      },
+      "suitcase": {
+        "metaclasse": "accessoire"
+      },
+      "calculator": {
+        "metaclasse": "accessoire"
+      },
+      "flashcard": {
+        "metaclasse": "accessoire"
+      },
+      "staple remover": {
+        "metaclasse": "accessoire"
+      },
+      "umbrella": {
+        "metaclasse": "accessoire"
+      },
+      "bench": {
+        "metaclasse": "meuble"
+      },
+      "yoga mat": {
+        "metaclasse": "meuble"
+      },
+      "backpack": {
+        "metaclasse": "accessoire"
+      },
+      "cd": {
+        "metaclasse": "accessoire"
+      },
+      "sign": {
+        "metaclasse": "accessoire"
+      },
+      "hangers": {
+        "metaclasse": "accessoire"
+      },
+      "notebook": {
+        "metaclasse": "accessoire"
+      },
+      "hanger": {
+        "metaclasse": "accessoire"
+      },
+      "security camera": {
+        "metaclasse": "accessoire"
+      },
+      "folders": {
+        "metaclasse": "accessoire"
+      },
+      "clothing hanger": {
+        "metaclasse": "accessoire"
+      },
+      "stairs": {
+        "metaclasse": "architecture"
+      },
+      "glass rack": {
+        "metaclasse": "meuble"
+      },
+      "saucer": {
+        "metaclasse": "accessoire"
+      },
+      "tag": {
+        "metaclasse": "accessoire"
+      },
+      "dolly": {
+        "metaclasse": "accessoire"
+      },
+      "machine": {
+        "metaclasse": "accessoire"
+      },
+      "trolley": {
+        "metaclasse": "accessoire"
+      },
+      "shopping baskets": {
+        "metaclasse": "accessoire"
+      },
+      "gate": {
+        "metaclasse": "porte"
+      },
+      "bookrack": {
+        "metaclasse": ""
+      },
+      "blackboard": {
+        "metaclasse": "accessoire"
+      },
+      "coffee bag": {
+        "metaclasse": "accessoire"
+      },
+      "coffee packet": {
+        "metaclasse": "accessoire"
+      },
+      "hot water heater": {
+        "metaclasse": "meuble"
+      },
+      "muffins": {
+        "metaclasse": "accessoire"
+      },
+      "napkin dispenser": {
+        "metaclasse": "accessoire"
+      },
+      "plaque": {
+        "metaclasse": "meuble"
+      },
+      "plastic tub": {
+        "metaclasse": "accessoire"
+      },
+      "plate": {
+        "metaclasse": "meuble"
+      },
+      "coffee machine": {
+        "metaclasse": "accessoire"
+      },
+      "napkin holder": {
+        "metaclasse": "accessoire"
+      },
+      "radiator": {
+        "metaclasse": "meuble"
+      },
+      "coffee grinder": {
+        "metaclasse": "accessoire"
+      },
+      "oven": {
+        "metaclasse": "meuble"
+      },
+      "plant pot": {
+        "metaclasse": "accessoire"
+      },
+      "scarf": {
+        "metaclasse": "accessoire"
+      },
+      "spice rack": {
+        "metaclasse": "accessoire"
+      },
+      "stove": {
+        "metaclasse": "accessoire"
+      },
+      "tea kettle": {
+        "metaclasse": "accessoire"
+      },
+      "napkin": {
+        "metaclasse": "accessoire"
+      },
+      "bag of chips": {
+        "metaclasse": "accessoire"
+      },
+      "bread": {
+        "metaclasse": "accessoire"
+      },
+      "cutting board": {
+        "metaclasse": "accessoire"
+      },
+      "dish brush": {
+        "metaclasse": "accessoire"
+      },
+      "serving spoon": {
+        "metaclasse": "accessoire"
+      },
+      "sponge": {
+        "metaclasse": "accessoire"
+      },
+      "toaster": {
+        "metaclasse": "accessoire"
+      },
+      "cooking pan": {
+        "metaclasse": "accessoire"
+      },
+      "kitchen items": {
+        "metaclasse": "accessoire"
+      },
+      "ladle": {
+        "metaclasse": "accessoire"
+      },
+      "spatula": {
+        "metaclasse": "accessoire"
+      },
+      "spice stand": {
+        "metaclasse": "accessoire"
+      },
+      "trivet": {
+        "metaclasse": "accessoire"
+      },
+      "knife rack": {
+        "metaclasse": "accessoire"
+      },
+      "knife": {
+        "metaclasse": "accessoire"
+      },
+      "baking dish": {
+        "metaclasse": "accessoire"
+      },
+      "dish scrubber": {
+        "metaclasse": "meuble"
+      },
+      "drying rack": {
+        "metaclasse": "meuble"
+      },
+      "vessel": {
+        "metaclasse": "accessoire"
+      },
+      "kichen towel": {
+        "metaclasse": "accessoire"
+      },
+      "tin foil": {
+        "metaclasse": "accessoire"
+      },
+      "kitchen utensil": {
+        "metaclasse": "accessoire"
+      },
+      "utensil": {
+        "metaclasse": "accessoire"
+      },
+      "blender": {
+        "metaclasse": "accessoire"
+      },
+      "garbage bag": {
+        "metaclasse": "accessoire"
+      },
+      "sink protector": {
+        "metaclasse": "accessoire"
+      },
+      "box of ziplock bags": {
+        "metaclasse": "accessoire"
+      },
+      "spice bottle": {
+        "metaclasse": "accessoire"
+      },
+      "pitcher": {
+        "metaclasse": "accessoire"
+      },
+      "pizza box": {
+        "metaclasse": "accessoire"
+      },
+      "toaster oven": {
+        "metaclasse": "accessoire"
+      },
+      "step stool": {
+        "metaclasse": "meuble"
+      },
+      "vegetable peeler": {
+        "metaclasse": "accessoire"
+      },
+      "washing machine": {
+        "metaclasse": "meuble"
+      },
+      "can opener": {
+        "metaclasse": "accessoire"
+      },
+      "can of food": {
+        "metaclasse": "accessoire"
+      },
+      "paper towel holder": {
+        "metaclasse": "accessoire"
+      },
+      "spoon stand": {
+        "metaclasse": "accessoire"
+      },
+      "spoon": {
+        "metaclasse": "accessoire"
+      },
+      "wooden kitchen utensils": {
+        "metaclasse": "accessoire"
+      },
+      "bag of flour": {
+        "metaclasse": "accessoire"
+      },
+      "fruit": {
+        "metaclasse": "accessoire"
+      },
+      "sheet of metal": {
+        "metaclasse": "accessoire"
+      },
+      "waffle maker": {
+        "metaclasse": "accessoire"
+      },
+      "cake": {
+        "metaclasse": "accessoire"
+      },
+      "cell phone": {
+        "metaclasse": "accessoire"
+      },
+      "tv stand": {
+        "metaclasse": "meuble"
+      },
+      "tablecloth": {
+        "metaclasse": "accessoire"
+      },
+      "wine glass": {
+        "metaclasse": "accessoire"
+      },
+      "sculpture": {
+        "metaclasse": "accessoire"
+      },
+      "wall stand": {
+        "metaclasse": "accessoire"
+      },
+      "iphone": {
+        "metaclasse": "accessoire"
+      },
+      "coke bottle": {
+        "metaclasse": "accessoire"
+      },
+      "piano": {
+        "metaclasse": "accessoire"
+      },
+      "wine rack": {
+        "metaclasse": "meuble"
+      },
+      "guitar": {
+        "metaclasse": "accessoire"
+      },
+      "light switch": {
+        "metaclasse": "prise"
+      },
+      "shirts in hanger": {
+        "metaclasse": "accessoire"
+      },
+      "router": {
+        "metaclasse": "accessoire"
+      },
+      "glass pot": {
+        "metaclasse": "accessoire"
+      },
+      "cart": {
+        "metaclasse": "accessoire"
+      },
+      "vacuum cleaner": {
+        "metaclasse": "accessoire"
+      },
+      "bin": {
+        "metaclasse": "accessoire"
+      },
+      "coins": {
+        "metaclasse": "accessoire"
+      },
+      "hand sculpture": {
+        "metaclasse": "accessoire"
+      },
+      "ipod": {
+        "metaclasse": "accessoire"
+      },
+      "jersey": {
+        "metaclasse": "accessoire"
+      },
+      "blanket": {
+        "metaclasse": "accessoire"
+      },
+      "ironing board": {
+        "metaclasse": "accessoire"
+      },
+      "pen stand": {
+        "metaclasse": "accessoire"
+      },
+      "mens tie": {
+        "metaclasse": "accessoire"
+      },
+      "glass baking dish": {
+        "metaclasse": "accessoire"
+      },
+      "utensils": {
+        "metaclasse": "accessoire"
+      },
+      "frying pan": {
+        "metaclasse": "accessoire"
+      },
+      "shopping cart": {
+        "metaclasse": "accessoire"
+      },
+      "plastic bowl": {
+        "metaclasse": "accessoire"
+      },
+      "wooden container": {
+        "metaclasse": "meuble"
+      },
+      "onion": {
+        "metaclasse": "accessoire"
+      },
+      "potato": {
+        "metaclasse": "accessoire"
+      },
+      "jacket": {
+        "metaclasse": "accessoire"
+      },
+      "dvds": {
+        "metaclasse": "accessoire"
+      },
+      "surge protector": {
+        "metaclasse": "accessoire"
+      },
+      "tumbler": {
+        "metaclasse": "accessoire"
+      },
+      "broom": {
+        "metaclasse": "accessoire"
+      },
+      "can": {
+        "metaclasse": "accessoire"
+      },
+      "crock pot": {
+        "metaclasse": "accessoire"
+      },
+      "person": {
+        "metaclasse": "accessoire"
+      },
+      "salt shaker": {
+        "metaclasse": "accessoire"
+      },
+      "wine bottle": {
+        "metaclasse": "accessoire"
+      },
+      "apple": {
+        "metaclasse": "accessoire"
+      },
+      "eye glasses": {
+        "metaclasse": "accessoire"
+      },
+      "menorah": {
+        "metaclasse": "accessoire"
+      },
+      "bicycle helmet": {
+        "metaclasse": "accessoire"
+      },
+      "fire alarm": {
+        "metaclasse": "prise"
+      },
+      "water fountain": {
+        "metaclasse": "accessoire"
+      },
+      "humidifier": {
+        "metaclasse": "accessoire"
+      },
+      "necklace": {
+        "metaclasse": "accessoire"
+      },
+      "chandelier": {
+        "metaclasse": "meuble"
+      },
+      "barrel": {
+        "metaclasse": "accessoire"
+      },
+      "chest": {
+        "metaclasse": "accessoire"
+      },
+      "decanter": {
+        "metaclasse": "accessoire"
+      },
+      "wooden utensils": {
+        "metaclasse": "accessoire"
+      },
+      "globe": {
+        "metaclasse": "accessoire"
+      },
+      "sheets": {
+        "metaclasse": "accessoire"
+      },
+      "fork": {
+        "metaclasse": "accessoire"
+      },
+      "napkin ring": {
+        "metaclasse": "accessoire"
+      },
+      "gift wrapping": {
+        "metaclasse": "accessoire"
+      },
+      "bed sheets": {
+        "metaclasse": "accessoire"
+      },
+      "spot light": {
+        "metaclasse": "accessoire"
+      },
+      "lighting track": {
+        "metaclasse": "accessoire"
+      },
+      "canister": {
+        "metaclasse": "accessoire"
+      },
+      "coffee table": {
+        "metaclasse": "meuble"
+      },
+      "mortar and pestle": {
+        "metaclasse": "accessoire"
+      },
+      "stack of plates": {
+        "metaclasse": "accessoire"
+      },
+      "ottoman": {
+        "metaclasse": "meuble"
+      },
+      "server": {
+        "metaclasse": "accessoire"
+      },
+      "salt container": {
+        "metaclasse": "accessoire"
+      },
+      "utensil container": {
+        "metaclasse": "accessoire"
+      },
+      "phone jack": {
+        "metaclasse": "prise"
+      },
+      "switchbox": {
+        "metaclasse": "accessoire"
+      },
+      "casserole dish": {
+        "metaclasse": "accessoire"
+      },
+      "oven handle": {
+        "metaclasse": "accessoire"
+      },
+      "whisk": {
+        "metaclasse": "accessoire"
+      },
+      "dish cover": {
+        "metaclasse": "accessoire"
+      },
+      "electric mixer": {
+        "metaclasse": "accessoire"
+      },
+      "decorative platter": {
+        "metaclasse": "accessoire"
+      },
+      "drawer handle": {
+        "metaclasse": "accessoire"
+      },
+      "fireplace": {
+        "metaclasse": "architecture"
+      },
+      "stroller": {
+        "metaclasse": "accessoire"
+      },
+      "bookend": {
+        "metaclasse": "accessoire"
+      },
+      "table runner": {
+        "metaclasse": "accessoire"
+      },
+      "typewriter": {
+        "metaclasse": "accessoire"
+      },
+      "ashtray": {
+        "metaclasse": "accessoire"
+      },
+      "key": {
+        "metaclasse": "accessoire"
+      },
+      "suit jacket": {
+        "metaclasse": "accessoire"
+      },
+      "range hood": {
+        "metaclasse": "meuble"
+      },
+      "cleaning wipes": {
+        "metaclasse": "accessoire"
+      },
+      "six pack of beer": {
+        "metaclasse": "accessoire"
+      },
+      "decorative plate": {
+        "metaclasse": "accessoire"
+      },
+      "watch": {
+        "metaclasse": "accessoire"
+      },
+      "balloon": {
+        "metaclasse": "accessoire"
+      },
+      "ipad": {
+        "metaclasse": "accessoire"
+      },
+      "coaster": {
+        "metaclasse": "accessoire"
+      },
+      "whiteboard eraser": {
+        "metaclasse": "accessoire"
+      },
+      "toy": {
+        "metaclasse": "accessoire"
+      },
+      "toys basket": {
+        "metaclasse": "accessoire"
+      },
+      "toy truck": {
+        "metaclasse": "accessoire"
+      },
+      "classroom board": {
+        "metaclasse": "accessoire"
+      },
+      "chart stand": {
+        "metaclasse": "accessoire"
+      },
+      "picture of fish": {
+        "metaclasse": "accessoire"
+      },
+      "plastic box": {
+        "metaclasse": "accessoire"
+      },
+      "pencil": {
+        "metaclasse": "accessoire"
+      },
+      "carton": {
+        "metaclasse": "accessoire"
+      },
+      "walkie talkie": {
+        "metaclasse": "accessoire"
+      },
+      "binder": {
+        "metaclasse": "accessoire"
+      },
+      "coat hanger": {
+        "metaclasse": "accessoire"
+      },
+      "filing shelves": {
+        "metaclasse": "meuble"
+      },
+      "plastic crate": {
+        "metaclasse": "accessoire"
+      },
+      "plastic rack": {
+        "metaclasse": "meuble"
+      },
+      "plastic tray": {
+        "metaclasse": "accessoire"
+      },
+      "flag": {
+        "metaclasse": "accessoire"
+      },
+      "poster board": {
+        "metaclasse": "accessoire"
+      },
+      "lunch bag": {
+        "metaclasse": "accessoire"
+      },
+      "board": {
+        "metaclasse": "accessoire"
+      },
+      "leg of a girl": {
+        "metaclasse": "accessoire"
+      },
+      "file holder": {
+        "metaclasse": "accessoire"
+      },
+      "chart": {
+        "metaclasse": "accessoire"
+      },
+      "glass pane": {
+        "metaclasse": "meuble"
+      },
+      "cardboard tube": {
+        "metaclasse": "accessoire"
+      },
+      "bassinet": {
+        "metaclasse": "accessoire"
+      },
+      "toy car": {
+        "metaclasse": "accessoire"
+      },
+      "toy shelf": {
+        "metaclasse": "meuble"
+      },
+      "toy bin": {
+        "metaclasse": "accessoire"
+      },
+      "toys shelf": {
+        "metaclasse": "meuble"
+      },
+      "educational display": {
+        "metaclasse": "accessoire"
+      },
+      "placard": {
+        "metaclasse": "meuble"
+      },
+      "soft toy group": {
+        "metaclasse": "accessoire"
+      },
+      "soft toy": {
+        "metaclasse": "accessoire"
+      },
+      "toy cube": {
+        "metaclasse": "accessoire"
+      },
+      "toy cylinder": {
+        "metaclasse": "accessoire"
+      },
+      "toy rectangle": {
+        "metaclasse": "accessoire"
+      },
+      "toy triangle": {
+        "metaclasse": "accessoire"
+      },
+      "bucket": {
+        "metaclasse": "accessoire"
+      },
+      "chalkboard": {
+        "metaclasse": "accessoire"
+      },
+      "game table": {
+        "metaclasse": "meuble"
+      },
+      "storage shelvesbooks": {
+        "metaclasse": "meuble"
+      },
+      "toy cuboid": {
+        "metaclasse": "accessoire"
+      },
+      "toy tree": {
+        "metaclasse": "accessoire"
+      },
+      "wooden toy": {
+        "metaclasse": "accessoire"
+      },
+      "toy box": {
+        "metaclasse": "accessoire"
+      },
+      "toy phone": {
+        "metaclasse": "accessoire"
+      },
+      "toy sink": {
+        "metaclasse": "accessoire"
+      },
+      "toyhouse": {
+        "metaclasse": "accessoire"
+      },
+      "notecards": {
+        "metaclasse": "accessoire"
+      },
+      "toy trucks": {
+        "metaclasse": "accessoire"
+      },
+      "wall hand sanitizer dispenser": {
+        "metaclasse": "meuble"
+      },
+      "cap stand": {
+        "metaclasse": "accessoire"
+      },
+      "music stereo": {
+        "metaclasse": "accessoire"
+      },
+      "toys rack": {
+        "metaclasse": "accessoire"
+      },
+      "display board": {
+        "metaclasse": "accessoire"
+      },
+      "lid of jar": {
+        "metaclasse": "accessoire"
+      },
+      "stacked bins  boxes": {
+        "metaclasse": "accessoire"
+      },
+      "stacked plastic racks": {
+        "metaclasse": "meuble"
+      },
+      "storage rack": {
+        "metaclasse": "meuble"
+      },
+      "roll of paper towels": {
+        "metaclasse": "accessoire"
+      },
+      "cables": {
+        "metaclasse": "accessoire"
+      },
+      "power surge": {
+        "metaclasse": "accessoire"
+      },
+      "cardboard sheet": {
+        "metaclasse": "accessoire"
+      },
+      "banister": {
+        "metaclasse": "meuble"
+      },
+      "show piece": {
+        "metaclasse": "meuble"
+      },
+      "pepper shaker": {
+        "metaclasse": "accessoire"
+      },
+      "kitchen island": {
+        "metaclasse": "meuble"
+      },
+      "excercise equipment": {
+        "metaclasse": "accessoire"
+      },
+      "treadmill": {
+        "metaclasse": "meuble"
+      },
+      "ornamental plant": {
+        "metaclasse": "accessoire"
+      },
+      "piano bench": {
+        "metaclasse": "meuble"
+      },
+      "sheet music": {
+        "metaclasse": "accessoire"
+      },
+      "grandfather clock": {
+        "metaclasse": "meuble"
+      },
+      "iron grill": {
+        "metaclasse": "accessoire"
+      },
+      "pen holder": {
+        "metaclasse": "accessoire"
+      },
+      "toy doll": {
+        "metaclasse": "accessoire"
+      },
+      "globe stand": {
+        "metaclasse": "accessoire"
+      },
+      "telescope": {
+        "metaclasse": "accessoire"
+      },
+      "magazine holder": {
+        "metaclasse": "accessoire"
+      },
+      "file container": {
+        "metaclasse": "accessoire"
+      },
+      "paper holder": {
+        "metaclasse": "accessoire"
+      },
+      "flower box": {
+        "metaclasse": "accessoire"
+      },
+      "pyramid": {
+        "metaclasse": "accessoire"
+      },
+      "desk mat": {
+        "metaclasse": "accessoire"
+      },
+      "cordless phone": {
+        "metaclasse": "accessoire"
+      },
+      "desk drawer": {
+        "metaclasse": "accessoire"
+      },
+      "envelope": {
+        "metaclasse": "accessoire"
+      },
+      "window frame": {
+        "metaclasse": "fenetre"
+      },
+      "id card": {
+        "metaclasse": "accessoire"
+      },
+      "file stand": {
+        "metaclasse": "accessoire"
+      },
+      "paper weight": {
+        "metaclasse": "accessoire"
+      },
+      "toy plane": {
+        "metaclasse": "accessoire"
+      },
+      "money": {
+        "metaclasse": "accessoire"
+      },
+      "papers": {
+        "metaclasse": "accessoire"
+      },
+      "comforter": {
+        "metaclasse": ""
+      },
+      "crib": {
+        "metaclasse": "meuble"
+      },
+      "doll house": {
+        "metaclasse": "accessoire"
+      },
+      "toy chair": {
+        "metaclasse": "meuble"
+      },
+      "toy sofa": {
+        "metaclasse": "meuble"
+      },
+      "plastic chair": {
+        "metaclasse": "meuble"
+      },
+      "toy house": {
+        "metaclasse": "accessoire"
+      },
+      "child carrier": {
+        "metaclasse": "accessoire"
+      },
+      "cloth bag": {
+        "metaclasse": "accessoire"
+      },
+      "cradle": {
+        "metaclasse": "meuble"
+      },
+      "baby chair": {
+        "metaclasse": "meuble"
+      },
+      "chart roll": {
+        "metaclasse": "accessoire"
+      },
+      "toys box": {
+        "metaclasse": "meuble"
+      },
+      "railing": {
+        "metaclasse": "meuble"
+      },
+      "clothing dryer": {
+        "metaclasse": "meuble"
+      },
+      "clothing washer": {
+        "metaclasse": "meuble"
+      },
+      "laundry detergent jug": {
+        "metaclasse": "accessoire"
+      },
+      "clothing detergent": {
+        "metaclasse": "accessoire"
+      },
+      "bottle of soap": {
+        "metaclasse": "accessoire"
+      },
+      "box of paper": {
+        "metaclasse": "accessoire"
+      },
+      "hand sanitizer dispenser": {
+        "metaclasse": "accessoire"
+      },
+      "soap holder": {
+        "metaclasse": "accessoire"
+      },
+      "water dispenser": {
+        "metaclasse": "accessoire"
+      },
+      "photo": {
+        "metaclasse": "accessoire"
+      },
+      "water cooler": {
+        "metaclasse": "accessoire"
+      },
+      "foosball table": {
+        "metaclasse": "meuble"
+      },
+      "crayon": {
+        "metaclasse": "accessoire"
+      },
+      "hoola hoop": {
+        "metaclasse": "accessoire"
+      },
+      "horse toy": {
+        "metaclasse": "accessoire"
+      },
+      "plastic toy container": {
+        "metaclasse": "accessoire"
+      },
+      "pool table": {
+        "metaclasse": "meuble"
+      },
+      "game system": {
+        "metaclasse": "accessoire"
+      },
+      "pool sticks": {
+        "metaclasse": "accessoire"
+      },
+      "console system": {
+        "metaclasse": "accessoire"
+      },
+      "video game": {
+        "metaclasse": "accessoire"
+      },
+      "pool ball": {
+        "metaclasse": "accessoire"
+      },
+      "trampoline": {
+        "metaclasse": "meuble"
+      },
+      "tricycle": {
+        "metaclasse": "accessoire"
+      },
+      "wii": {
+        "metaclasse": "accessoire"
+      },
+      "furniture": {
+        "metaclasse": "meuble"
+      },
+      "alarm": {
+        "metaclasse": "prise"
+      },
+      "toy table": {
+        "metaclasse": "meuble"
+      },
+      "ornamental item": {
+        "metaclasse": "accessoire"
+      },
+      "copper vessel": {
+        "metaclasse": "accessoire"
+      },
+      "stick": {
+        "metaclasse": "accessoire"
+      },
+      "car": {
+        "metaclasse": "meuble"
+      },
+      "mezuza": {
+        "metaclasse": "accessoire"
+      },
+      "toy cash register": {
+        "metaclasse": "accessoire"
+      },
+      "lid": {
+        "metaclasse": "accessoire"
+      },
+      "paper bundle": {
+        "metaclasse": "accessoire"
+      },
+      "business cards": {
+        "metaclasse": "accessoire"
+      },
+      "clipboard": {
+        "metaclasse": "accessoire"
+      },
+      "flatbed scanner": {
+        "metaclasse": "accessoire"
+      },
+      "paper tray": {
+        "metaclasse": "accessoire"
+      },
+      "mouse pad": {
+        "metaclasse": "accessoire"
+      },
+      "display case": {
+        "metaclasse": "accessoire"
+      },
+      "tree sculpture": {
+        "metaclasse": "accessoire"
+      },
+      "basketball": {
+        "metaclasse": "accessoire"
+      },
+      "fiberglass case": {
+        "metaclasse": "accessoire"
+      },
+      "framed certificate": {
+        "metaclasse": "accessoire"
+      },
+      "cordless telephone": {
+        "metaclasse": "accessoire"
+      },
+      "shofar": {
+        "metaclasse": "accessoire"
+      },
+      "trophy": {
+        "metaclasse": "accessoire"
+      },
+      "cleaner": {
+        "metaclasse": "accessoire"
+      },
+      "cloth drying stand": {
+        "metaclasse": "accessoire"
+      },
+      "electric box": {
+        "metaclasse": "prise"
+      },
+      "furnace": {
+        "metaclasse": "meuble"
+      },
+      "piece of wood": {
+        "metaclasse": "accessoire"
+      },
+      "wooden pillar": {
+        "metaclasse": "meuble"
+      },
+      "drying stand": {
+        "metaclasse": "accessoire"
+      },
+      "cane": {
+        "metaclasse": "accessoire"
+      },
+      "clothing drying rack": {
+        "metaclasse": "accessoire"
+      },
+      "iron box": {
+        "metaclasse": "accessoire"
+      },
+      "excercise machine": {
+        "metaclasse": "meuble"
+      },
+      "sheet": {
+        "metaclasse": "accessoire"
+      },
+      "rope": {
+        "metaclasse": "accessoire"
+      },
+      "sticks": {
+        "metaclasse": "accessoire"
+      },
+      "wooden planks": {
+        "metaclasse": "accessoire"
+      },
+      "toilet plunger": {
+        "metaclasse": "accessoire"
+      },
+      "bar of soap": {
+        "metaclasse": "accessoire"
+      },
+      "toilet bowl brush": {
+        "metaclasse": "accessoire"
+      },
+      "light bulb": {
+        "metaclasse": "accessoire"
+      },
+      "drain": {
+        "metaclasse": "accessoire"
+      },
+      "faucet handle": {
+        "metaclasse": "accessoire"
+      },
+      "nailclipper": {
+        "metaclasse": "accessoire"
+      },
+      "shaving cream": {
+        "metaclasse": "accessoire"
+      },
+      "rolled carpet": {
+        "metaclasse": "accessoire"
+      },
+      "clothing iron": {
+        "metaclasse": "accessoire"
+      },
+      "window cover": {
+        "metaclasse": "accessoire"
+      },
+      "charger and wire": {
+        "metaclasse": "accessoire"
+      },
+      "quilt": {
+        "metaclasse": "accessoire"
+      },
+      "mattress": {
+        "metaclasse": "accessoire"
+      },
+      "hair dryer": {
+        "metaclasse": "accessoire"
+      },
+      "stones": {
+        "metaclasse": "accessoire"
+      },
+      "pepper grinder": {
+        "metaclasse": "accessoire"
+      },
+      "cat cage": {
+        "metaclasse": "accessoire"
+      },
+      "dish rack": {
+        "metaclasse": "accessoire"
+      },
+      "curtain rod": {
+        "metaclasse": "accessoire"
+      },
+      "calendar": {
+        "metaclasse": "accessoire"
+      },
+      "head phones": {
+        "metaclasse": "accessoire"
+      },
+      "cd disc": {
+        "metaclasse": "accessoire"
+      },
+      "head phone": {
+        "metaclasse": "accessoire"
+      },
+      "usb drive": {
+        "metaclasse": "accessoire"
+      },
+      "water heater": {
+        "metaclasse": "accessoire"
+      },
+      "pan": {
+        "metaclasse": "accessoire"
+      },
+      "tuna cans": {
+        "metaclasse": "accessoire"
+      },
+      "baby gate": {
+        "metaclasse": "accessoire"
+      },
+      "spoon sets": {
+        "metaclasse": "accessoire"
+      },
+      "cans of cat food": {
+        "metaclasse": "accessoire"
+      },
+      "cat": {
+        "metaclasse": "accessoire"
+      },
+      "flower basket": {
+        "metaclasse": "accessoire"
+      },
+      "fruit platter": {
+        "metaclasse": "accessoire"
+      },
+      "grapefruit": {
+        "metaclasse": "accessoire"
+      },
+      "kiwi": {
+        "metaclasse": "accessoire"
+      },
+      "hand blender": {
+        "metaclasse": "accessoire"
+      },
+      "knobs": {
+        "metaclasse": "accessoire"
+      },
+      "vessels": {
+        "metaclasse": "accessoire"
+      },
+      "cell phone charger": {
+        "metaclasse": "accessoire"
+      },
+      "wire basket": {
+        "metaclasse": "accessoire"
+      },
+      "tub of tupperware": {
+        "metaclasse": "accessoire"
+      },
+      "candelabra": {
+        "metaclasse": "accessoire"
+      },
+      "litter box": {
+        "metaclasse": "accessoire"
+      },
+      "shovel": {
+        "metaclasse": "accessoire"
+      },
+      "cat bed": {
+        "metaclasse": "accessoire"
+      },
+      "door way": {
+        "metaclasse": "porte"
+      },
+      "belt": {
+        "metaclasse": "accessoire"
+      },
+      "surge protect": {
+        "metaclasse": "accessoire"
+      },
+      "glass": {
+        "metaclasse": "accessoire"
+      },
+      "console controller": {
+        "metaclasse": "accessoire"
+      },
+      "shoe rack": {
+        "metaclasse": "accessoire"
+      },
+      "door frame": {
+        "metaclasse": "porte"
+      },
+      "computer disk": {
+        "metaclasse": "accessoire"
+      },
+      "briefcase": {
+        "metaclasse": "accessoire"
+      },
+      "mail tray": {
+        "metaclasse": "accessoire"
+      },
+      "file pad": {
+        "metaclasse": "accessoire"
+      },
+      "letter stand": {
+        "metaclasse": "accessoire"
+      },
+      "plastic cup of coffee": {
+        "metaclasse": "accessoire"
+      },
+      "glass box": {
+        "metaclasse": "accessoire"
+      },
+      "ping pong ball": {
+        "metaclasse": "accessoire"
+      },
+      "ping pong racket": {
+        "metaclasse": "accessoire"
+      },
+      "ping pong table": {
+        "metaclasse": "accessoire"
+      },
+      "tennis racket": {
+        "metaclasse": "accessoire"
+      },
+      "ping pong racquet": {
+        "metaclasse": "accessoire"
+      },
+      "xbox": {
+        "metaclasse": "accessoire"
+      },
+      "electric toothbrush base": {
+        "metaclasse": "accessoire"
+      },
+      "toilet brush": {
+        "metaclasse": "accessoire"
+      },
+      "toiletries": {
+        "metaclasse": "accessoire"
+      },
+      "razor": {
+        "metaclasse": "accessoire"
+      },
+      "bottle of contact lens solution": {
+        "metaclasse": "accessoire"
+      },
+      "contact lens case": {
+        "metaclasse": "accessoire"
+      },
+      "cream": {
+        "metaclasse": "accessoire"
+      },
+      "glass container": {
+        "metaclasse": "accessoire"
+      },
+      "container of skin cream": {
+        "metaclasse": "accessoire"
+      },
+      "soap dish": {
+        "metaclasse": "accessoire"
+      },
+      "scale": {
+        "metaclasse": "accessoire"
+      },
+      "soap stand": {
+        "metaclasse": "accessoire"
+      },
+      "cactus": {
+        "metaclasse": "accessoire"
+      },
+      "door  window  reflection": {
+        "metaclasse": "porte"
+      },
+      "ceramic frog": {
+        "metaclasse": "accessoire"
+      },
+      "incense candle": {
+        "metaclasse": "accessoire"
+      },
+      "storage space": {
+        "metaclasse": "meuble"
+      },
+      "door lock": {
+        "metaclasse": "accessoire"
+      },
+      "toilet paper holder": {
+        "metaclasse": "accessoire"
+      },
+      "tissue": {
+        "metaclasse": "accessoire"
+      },
+      "personal care liquid": {
+        "metaclasse": "accessoire"
+      },
+      "shower head": {
+        "metaclasse": "accessoire"
+      },
+      "shower knob": {
+        "metaclasse": "accessoire"
+      },
+      "knob": {
+        "metaclasse": "accessoire"
+      },
+      "cream tube": {
+        "metaclasse": "accessoire"
+      },
+      "perfume box": {
+        "metaclasse": "accessoire"
+      },
+      "perfume": {
+        "metaclasse": "accessoire"
+      },
+      "back scrubber": {
+        "metaclasse": "accessoire"
+      },
+      "door facing trimreflection": {
+        "metaclasse": "porte"
+      },
+      "doorreflection": {
+        "metaclasse": "porte"
+      },
+      "light switchreflection": {
+        "metaclasse": "prise"
+      },
+      "medicine tube": {
+        "metaclasse": "accessoire"
+      },
+      "wallet": {
+        "metaclasse": "accessoire"
+      },
+      "soap tray": {
+        "metaclasse": "accessoire"
+      },
+      "door curtain": {
+        "metaclasse": "accessoire"
+      },
+      "shower pipe": {
+        "metaclasse": "accessoire"
+      },
+      "face wash cream": {
+        "metaclasse": "accessoire"
+      },
+      "flashlight": {
+        "metaclasse": "accessoire"
+      },
+      "shower base": {
+        "metaclasse": "meuble"
+      },
+      "window shelf": {
+        "metaclasse": "accessoire"
+      },
+      "shower hose": {
+        "metaclasse": "accessoire"
+      },
+      "toothpaste holder": {
+        "metaclasse": "accessoire"
+      },
+      "soap box": {
+        "metaclasse": "accessoire"
+      },
+      "incense holder": {
+        "metaclasse": "accessoire"
+      },
+      "conch shell": {
+        "metaclasse": "accessoire"
+      },
+      "roll of toilet paper": {
+        "metaclasse": "accessoire"
+      },
+      "shower tube": {
+        "metaclasse": "accessoire"
+      },
+      "bottle of listerine": {
+        "metaclasse": "accessoire"
+      },
+      "bottle of hand wash liquid": {
+        "metaclasse": "accessoire"
+      },
+      "tea pot": {
+        "metaclasse": "accessoire"
+      },
+      "lazy susan": {
+        "metaclasse": "accessoire"
+      },
+      "avocado": {
+        "metaclasse": "accessoire"
+      },
+      "fruit stand": {
+        "metaclasse": "accessoire"
+      },
+      "fruitplate": {
+        "metaclasse": "accessoire"
+      },
+      "oil container": {
+        "metaclasse": "accessoire"
+      },
+      "package of water": {
+        "metaclasse": "accessoire"
+      },
+      "bottle of liquid": {
+        "metaclasse": "accessoire"
+      },
+      "door way arch": {
+        "metaclasse": "porte"
+      },
+      "jug": {
+        "metaclasse": "accessoire"
+      },
+      "bulb": {
+        "metaclasse": "accessoire"
+      },
+      "bagel": {
+        "metaclasse": "accessoire"
+      },
+      "bag of bagels": {
+        "metaclasse": "accessoire"
+      },
+      "banana peel": {
+        "metaclasse": "accessoire"
+      },
+      "bag of oreo": {
+        "metaclasse": "accessoire"
+      },
+      "flask": {
+        "metaclasse": "accessoire"
+      },
+      "collander": {
+        "metaclasse": "accessoire"
+      },
+      "brick": {
+        "metaclasse": "accessoire"
+      },
+      "torch": {
+        "metaclasse": "accessoire"
+      },
+      "dog bowl": {
+        "metaclasse": "accessoire"
+      },
+      "wooden plank": {
+        "metaclasse": "accessoire"
+      },
+      "eggs": {
+        "metaclasse": "accessoire"
+      },
+      "grill": {
+        "metaclasse": "accessoire"
+      },
+      "dog": {
+        "metaclasse": "accessoire"
+      },
+      "chimney": {
+        "metaclasse": "meuble"
+      },
+      "dog cage": {
+        "metaclasse": "accessoire"
+      },
+      "orange plastic cap": {
+        "metaclasse": "accessoire"
+      },
+      "glass set": {
+        "metaclasse": "accessoire"
+      },
+      "vessel set": {
+        "metaclasse": "accessoire"
+      },
+      "mellon": {
+        "metaclasse": "accessoire"
+      },
+      "aluminium foil": {
+        "metaclasse": "accessoire"
+      },
+      "orange": {
+        "metaclasse": "accessoire"
+      },
+      "peach": {
+        "metaclasse": "accessoire"
+      },
+      "tea coaster": {
+        "metaclasse": "accessoire"
+      },
+      "butterfly sculpture": {
+        "metaclasse": "accessoire"
+      },
+      "corkscrew": {
+        "metaclasse": "accessoire"
+      },
+      "heating tray": {
+        "metaclasse": "accessoire"
+      },
+      "food processor": {
+        "metaclasse": "accessoire"
+      },
+      "corn": {
+        "metaclasse": "accessoire"
+      },
+      "squash": {
+        "metaclasse": "accessoire"
+      },
+      "watermellon": {
+        "metaclasse": "accessoire"
+      },
+      "vegetables": {
+        "metaclasse": "accessoire"
+      },
+      "celery": {
+        "metaclasse": "accessoire"
+      },
+      "glass dish": {
+        "metaclasse": "accessoire"
+      },
+      "hot dogs": {
+        "metaclasse": "accessoire"
+      },
+      "plastic dish": {
+        "metaclasse": "accessoire"
+      },
+      "vegetable": {
+        "metaclasse": "accessoire"
+      },
+      "sticker": {
+        "metaclasse": "accessoire"
+      },
+      "chapstick": {
+        "metaclasse": "accessoire"
+      },
+      "sifter": {
+        "metaclasse": "accessoire"
+      },
+      "fruit basket": {
+        "metaclasse": "accessoire"
+      },
+      "glove": {
+        "metaclasse": "accessoire"
+      },
+      "measuring cup": {
+        "metaclasse": "accessoire"
+      },
+      "water filter": {
+        "metaclasse": "accessoire"
+      },
+      "wine accessory": {
+        "metaclasse": "accessoire"
+      },
+      "dishes": {
+        "metaclasse": "accessoire"
+      },
+      "file box": {
+        "metaclasse": "accessoire"
+      },
+      "ornamental pot": {
+        "metaclasse": "accessoire"
+      },
+      "dog toy": {
+        "metaclasse": "accessoire"
+      },
+      "salt and pepper": {
+        "metaclasse": "accessoire"
+      },
+      "electrical kettle": {
+        "metaclasse": "accessoire"
+      },
+      "kitchen container plastic": {
+        "metaclasse": "accessoire"
+      },
+      "pineapple": {
+        "metaclasse": "accessoire"
+      },
+      "suger jar": {
+        "metaclasse": "accessoire"
+      },
+      "steamer": {
+        "metaclasse": "accessoire"
+      },
+      "charger": {
+        "metaclasse": "accessoire"
+      },
+      "mug holder": {
+        "metaclasse": "accessoire"
+      },
+      "orange juicer": {
+        "metaclasse": "accessoire"
+      },
+      "juicer": {
+        "metaclasse": "accessoire"
+      },
+      "bag of hot dog buns": {
+        "metaclasse": "accessoire"
+      },
+      "hamburger bun": {
+        "metaclasse": "accessoire"
+      },
+      "mug hanger": {
+        "metaclasse": "accessoire"
+      },
+      "bottle of ketchup": {
+        "metaclasse": "accessoire"
+      },
+      "toy kitchen": {
+        "metaclasse": "meuble"
+      },
+      "food wrapped on a tray": {
+        "metaclasse": "accessoire"
+      },
+      "kitchen utensils": {
+        "metaclasse": "accessoire"
+      },
+      "oven mitt": {
+        "metaclasse": "accessoire"
+      },
+      "bottle of comet": {
+        "metaclasse": "accessoire"
+      },
+      "wooden utensil": {
+        "metaclasse": "accessoire"
+      },
+      "decorative dish": {
+        "metaclasse": "accessoire"
+      },
+      "handle": {
+        "metaclasse": "accessoire"
+      },
+      "label": {
+        "metaclasse": "accessoire"
+      },
+      "flask set": {
+        "metaclasse": "accessoire"
+      },
+      "cooking pot cover": {
+        "metaclasse": "accessoire"
+      },
+      "tupperware": {
+        "metaclasse": "accessoire"
+      },
+      "garlic": {
+        "metaclasse": "accessoire"
+      },
+      "tissue roll": {
+        "metaclasse": "accessoire"
+      },
+      "lemon": {
+        "metaclasse": "accessoire"
+      },
+      "wine": {
+        "metaclasse": "accessoire"
+      },
+      "decorative bottle": {
+        "metaclasse": "accessoire"
+      },
+      "wire tray": {
+        "metaclasse": "accessoire"
+      },
+      "tea cannister": {
+        "metaclasse": "accessoire"
+      },
+      "clothing hamper": {
+        "metaclasse": "accessoire"
+      },
+      "guitar case": {
+        "metaclasse": "accessoire"
+      },
+      "wardrobe": {
+        "metaclasse": "meuble"
+      },
+      "boomerang": {
+        "metaclasse": "accessoire"
+      },
+      "button": {
+        "metaclasse": "accessoire"
+      },
+      "karate belts": {
+        "metaclasse": "accessoire"
+      },
+      "medal": {
+        "metaclasse": "accessoire"
+      },
+      "window seat": {
+        "metaclasse": "meuble"
+      },
+      "window box": {
+        "metaclasse": "accessoire"
+      },
+      "necklace holder": {
+        "metaclasse": "accessoire"
+      },
+      "beeper": {
+        "metaclasse": "accessoire"
+      },
+      "webcam": {
+        "metaclasse": "accessoire"
+      },
+      "fish tank": {
+        "metaclasse": "accessoire"
+      },
+      "luggage": {
+        "metaclasse": "accessoire"
+      },
+      "life jacket": {
+        "metaclasse": "accessoire"
+      },
+      "shoelace": {
+        "metaclasse": "accessoire"
+      },
+      "pen cup": {
+        "metaclasse": "accessoire"
+      },
+      "eyeball plastic ball": {
+        "metaclasse": "accessoire"
+      },
+      "toy pyramid": {
+        "metaclasse": "accessoire"
+      },
+      "model boat": {
+        "metaclasse": "accessoire"
+      },
+      "certificate": {
+        "metaclasse": "accessoire"
+      },
+      "puppy toy": {
+        "metaclasse": "accessoire"
+      },
+      "wire board": {
+        "metaclasse": "accessoire"
+      },
+      "quill": {
+        "metaclasse": "accessoire"
+      },
+      "toy boat": {
+        "metaclasse": "accessoire"
+      },
+      "antenna": {
+        "metaclasse": "accessoire"
+      },
+      "bean bag": {
+        "metaclasse": "accessoire"
+      },
+      "lint comb": {
+        "metaclasse": "accessoire"
+      },
+      "travel bag": {
+        "metaclasse": "accessoire"
+      },
+      "wall divider": {
+        "metaclasse": "meuble"
+      },
+      "toy chest": {
+        "metaclasse": "meuble"
+      },
+      "headband": {
+        "metaclasse": "accessoire"
+      },
+      "luggage rack": {
+        "metaclasse": "accessoire"
+      },
+      "bunk bed": {
+        "metaclasse": "meuble"
+      },
+      "lego": {
+        "metaclasse": "accessoire"
+      },
+      "yarmulka": {
+        "metaclasse": "accessoire"
+      },
+      "package of bedroom sheets": {
+        "metaclasse": "accessoire"
+      },
+      "bedding package": {
+        "metaclasse": "accessoire"
+      },
+      "comb": {
+        "metaclasse": "accessoire"
+      },
+      "dollar bill": {
+        "metaclasse": "accessoire"
+      },
+      "pig": {
+        "metaclasse": "accessoire"
+      },
+      "storage bin": {
+        "metaclasse": "accessoire"
+      },
+      "storage chest": {
+        "metaclasse": "accessoire"
+      },
+      "slide": {
+        "metaclasse": "meuble"
+      },
+      "playpen": {
+        "metaclasse": "accessoire"
+      },
+      "electronic drumset": {
+        "metaclasse": "meuble"
+      },
+      "ipod dock": {
+        "metaclasse": "accessoire"
+      },
+      "microphone": {
+        "metaclasse": "accessoire"
+      },
+      "music keyboard": {
+        "metaclasse": "accessoire"
+      },
+      "music stand": {
+        "metaclasse": "accessoire"
+      },
+      "microphone stand": {
+        "metaclasse": "accessoire"
+      },
+      "album": {
+        "metaclasse": "meuble"
+      },
+      "kinect": {
+        "metaclasse": "accessoire"
+      },
+      "inkwell": {
+        "metaclasse": "accessoire"
+      },
+      "baseball": {
+        "metaclasse": "accessoire"
+      },
+      "decorative bowl": {
+        "metaclasse": "accessoire"
+      },
+      "book holder": {
+        "metaclasse": "accessoire"
+      },
+      "toy horse": {
+        "metaclasse": "accessoire"
+      },
+      "desser": {
+        "metaclasse": "accessoire"
+      },
+      "toy apple": {
+        "metaclasse": "accessoire"
+      },
+      "toy dog": {
+        "metaclasse": "accessoire"
+      },
+      "scenary": {
+        "metaclasse": "accessoire"
+      },
+      "drawer knob": {
+        "metaclasse": "accessoire"
+      },
+      "shoe hanger": {
+        "metaclasse": "accessoire"
+      },
+      "tent": {
+        "metaclasse": "accessoire"
+      },
+      "figurine": {
+        "metaclasse": "accessoire"
+      },
+      "soccer ball": {
+        "metaclasse": "accessoire"
+      },
+      "hand weight": {
+        "metaclasse": "accessoire"
+      },
+      "magic 8ball": {
+        "metaclasse": "accessoire"
+      },
+      "bottle of perfume": {
+        "metaclasse": "accessoire"
+      },
+      "sleeping bag": {
+        "metaclasse": "accessoire"
+      },
+      "decoration item": {
+        "metaclasse": "accessoire"
+      },
+      "envelopes": {
+        "metaclasse": "accessoire"
+      },
+      "trinket": {
+        "metaclasse": "accessoire"
+      },
+      "hand fan": {
+        "metaclasse": "accessoire"
+      },
+      "sculpture of the chrysler building": {
+        "metaclasse": "accessoire"
+      },
+      "sculpture of the eiffel tower": {
+        "metaclasse": "accessoire"
+      },
+      "sculpture of the empire state building": {
+        "metaclasse": "accessoire"
+      },
+      "jeans": {
+        "metaclasse": "accessoire"
+      },
+      "garage door": {
+        "metaclasse": "porte"
+      },
+      "case": {
+        "metaclasse": "accessoire"
+      },
+      "rags": {
+        "metaclasse": "accessoire"
+      },
+      "decorative item": {
+        "metaclasse": "accessoire"
+      },
+      "toy stroller": {
+        "metaclasse": "accessoire"
+      },
+      "shelf frame": {
+        "metaclasse": "meuble"
+      },
+      "cat house": {
+        "metaclasse": "accessoire"
+      },
+      "can of beer": {
+        "metaclasse": "accessoire"
+      },
+      "dog bed": {
+        "metaclasse": "accessoire"
+      },
+      "lamp shade": {
+        "metaclasse": "accessoire"
+      },
+      "bracelet": {
+        "metaclasse": "accessoire"
+      },
+      "reflection of window shutters": {
+        "metaclasse": "fenetre"
+      },
+      "decorative egg": {
+        "metaclasse": "accessoire"
+      },
+      "indoor fountain": {
+        "metaclasse": "accessoire"
+      },
+      "photo album": {
+        "metaclasse": "accessoire"
+      },
+      "decorative candle": {
+        "metaclasse": "accessoire"
+      },
+      "walkietalkie": {
+        "metaclasse": "accessoire"
+      },
+      "serving dish": {
+        "metaclasse": "accessoire"
+      },
+      "floor trim": {
+        "metaclasse": "accessoire"
+      },
+      "mini display platform": {
+        "metaclasse": "accessoire"
+      },
+      "american flag": {
+        "metaclasse": "accessoire"
+      },
+      "vhs tapes": {
+        "metaclasse": "accessoire"
+      },
+      "throw": {
+        "metaclasse": "accessoire"
+      },
+      "newspapers": {
+        "metaclasse": "accessoire"
+      },
+      "mantle": {
+        "metaclasse": "accessoire"
+      },
+      "package of bottled water": {
+        "metaclasse": "accessoire"
+      },
+      "serving platter": {
+        "metaclasse": "accessoire"
+      },
+      "display platter": {
+        "metaclasse": "accessoire"
+      },
+      "centerpiece": {
+        "metaclasse": "accessoire"
+      },
+      "tea box": {
+        "metaclasse": "accessoire"
+      },
+      "gold piece": {
+        "metaclasse": "accessoire"
+      },
+      "wreathe": {
+        "metaclasse": "accessoire"
+      },
+      "lectern": {
+        "metaclasse": "meuble"
+      },
+      "hammer": {
+        "metaclasse": "accessoire"
+      },
+      "matchbox": {
+        "metaclasse": "meuble"
+      },
+      "pepper": {
+        "metaclasse": "accessoire"
+      },
+      "yellow pepper": {
+        "metaclasse": "accessoire"
+      },
+      "duck": {
+        "metaclasse": "accessoire"
+      },
+      "eggplant": {
+        "metaclasse": "accessoire"
+      },
+      "glass ware": {
+        "metaclasse": "accessoire"
+      },
+      "sewing machine": {
+        "metaclasse": "accessoire"
+      },
+      "rolled up rug": {
+        "metaclasse": "accessoire"
+      },
+      "doily": {
+        "metaclasse": "accessoire"
+      },
+      "coffee pot": {
+        "metaclasse": "accessoire"
+      },
+      "torah": {
+        "metaclasse": "accessoire"
+      }
+    }
+}

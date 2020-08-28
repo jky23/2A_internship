@@ -1,0 +1,9 @@
+Sol
+Mur
+Plafond
+Fenetre
+Porte
+Prise
+Architecture
+Meuble
+Accessoire

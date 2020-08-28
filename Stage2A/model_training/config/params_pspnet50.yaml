@@ -1,0 +1,61 @@
+DATA:
+  train_dir: data/train/ # path to the training dataset
+  val_dir: data/val/ # path to the validation dataset
+  classes: 9 # the numbers of classes
+
+TRAIN:
+  arch: psp
+  layers: 50 # the numbers of layers
+  sync_bn: True  # adopt sync_bn or not
+  train_h: 473 # size of the image
+  train_w: 473
+  scale_min: 0.5  # minimum random scale
+  scale_max: 2.0  # maximum random scale
+  rotate_min: -10  # minimum random rotate
+  rotate_max: 10  # maximum random rotate
+  zoom_factor: 8  # zoom factor for final prediction during training, be in [1, 2, 4, 8]
+  ignore_label: 255
+  aux_weight: 0.4 # weight decay for loss
+  train_gpu: [0, 1, 2, 3, 4, 5, 6, 7]
+  workers: 16  # how many workers for data loaders
+  batch_size: 16  # batch size for training
+  batch_size_val: 8  # batch size for validation during training, memory and speed tradeoff
+  base_lr: 0.01 # learning rate
+  epochs: 100 # Number of epochs
+  start_epoch: 0
+  power: 0.9 # SGD power
+  momentum: 0.9 # SGD momentum
+  weight_decay: 0.0001 # SGD weight decay
+  manual_seed:
+  print_freq: 10 # how many batches to wait before logging training status
+  save_freq: 10
+  save_path: data/result/
+  weight:  # path to initial weight (default: none)
+  resume:  # path to latest checkpoint (default: none)
+  evaluate: False  # evaluate on validation set, extra gpu memory needed and small batch_size_val is recommend
+Distributed:
+  dist_url: tcp://127.0.0.1:6789
+  dist_backend: 'nccl' #backend for distributed training (tcp, gloo on cpu and gloo, nccl on gpu)
+  multiprocessing_distributed: True
+  world_size: 1
+  rank: 0
+
+TEST:
+  data_path: data/test/
+  split: test  # split in [train, val and test]
+  base_size: 512  # based size for scaling
+  test_h: 473 # Size of the images
+  test_w: 473
+  scales: [1.0]  # evaluation scales, ms as [0.5, 0.75, 1.0, 1.25, 1.5, 1.75]
+  has_prediction: False  # has prediction already or not
+  metric: accuracy # Metric for evaluation (accuracy, mIouU)
+  threshold: 0.8  # Threshold to save image with bad or good metrics
+  condition: inf # Condition to apply during evaluation condition in (inf, sup) 
+  index_start: 0  # evaluation start index in list
+  index_step: 0  # evaluation step index in list, 0 means to end
+  test_gpu: [0]
+  score_file_path: score.csv # path to the file to save score
+  model_path: data/result/epochs_100.pth  # evaluation model path
+  save_folder: data/result/  # results save folder
+  colors_path: config/colors.txt  # path of dataset colors
+  names_path: config/names.txt  # path of dataset classes names
